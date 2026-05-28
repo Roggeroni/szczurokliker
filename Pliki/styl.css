@@ -1,0 +1,36 @@
+body{
+    background-image: url('start.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+body.boss{
+    background-image: url('boss.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+body:active{
+    background-image: url('click.png');
+}
+input{
+    background: transparent;
+    border: 0;
+    z-index: 3;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+}
+p{
+    font-size: 500%;
+    color: white;
+    text-shadow:
+        2px 2px 0 black,
+        -2px 2px 0 black,
+        2px -2px 0 black,
+        -2px -2px 0 black;
+    text-align: center;
+    z-index: 2;
+    transform: translate(0%, 100%);
+}
